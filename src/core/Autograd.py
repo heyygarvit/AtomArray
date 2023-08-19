@@ -8,8 +8,6 @@ class Node:
     """A class representing a node in the computational graph."""
 
     def __init__(self, data, _children=(), _op="", label=""):
-        # self.data = np.array(data)
-        # self.grad = np.zeros_like(self.data)
         self.data = np.array(data, dtype=np.float64)
         self.grad = np.zeros_like(self.data, dtype=np.float64)
 
@@ -106,19 +104,7 @@ class Node:
             other.grad += -self.data / (other.data ** 2) * out.grad
         out._backward = _backward
         return out
-    #  # Direct Division
-    # def __div__(self, other):
-    #     other = other if isinstance(other, Node) else Node(other)
-    #     if other.data == 0:
-    #         raise DivisionByZeroError("Division by zero is not allowed.")
-    #     out = Node(self.data / other.data, (self, other), '/')
-
-    #     def _backward():
-    #         self.grad += 1.0 / other.data * out.grad
-    #         other.grad += -self.data / (other.data ** 2) * out.grad
-    #     out._backward = _backward
-    #     return out
-
+   
     # Logarithm (natural)
     def log(self):
         if self.data <= 0:
@@ -271,8 +257,3 @@ def draw_dot(root):
 
     return dot
 
-# x = Node([2, 3])
-# y = Node([3, 4])
-# z = x * y
-# z.backward()
-# z.visualize().view()
