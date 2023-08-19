@@ -41,7 +41,7 @@ Your feedback is invaluable. If you've tried AtomArray, do share your experience
 
 ## License
 
-[Apache 2.0]
+[Apache 2.0](https://github.com/heyygarvit/AtomArray/blob/main/LICENSE)
 
 ---
 
