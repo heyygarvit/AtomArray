@@ -23,7 +23,8 @@ While AtomArray is currently in its foundational phase, continuous improvements 
 
 1. **Clone the Repository**:
    ```
-   git clone [Your GitHub/Project Link]
+   git clone https://github.com/heyygarvit/AtomArray.git
+
    ```
 
 2. **Install Dependencies**:
@@ -44,4 +45,3 @@ Your feedback is invaluable. If you've tried AtomArray, do share your experience
 
 ---
 
-Please replace the placeholders like `[Your GitHub/Project Link]` with the appropriate links or details. Adjust sections as needed based on your project's specifics.
