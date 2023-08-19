@@ -1,7 +1,10 @@
 <img width="342" alt="AtomArray white" src="https://github.com/heyygarvit/AtomArray/assets/120100659/cb643c92-bddc-4e66-9067-a06701c21794">
 
 
-# AtomArray: Automatic Differentiation Library
+# AtomArray: Automatic Differentiation Library 
+
+[DOCUMENTATION](https://docs-atomarray.bullet.site/)
+
 
 ## Introduction
 
