@@ -1,8 +1,12 @@
+<img width="342" alt="AtomArray white" src="https://github.com/heyygarvit/AtomArray/assets/120100659/cb643c92-bddc-4e66-9067-a06701c21794">
+
+
 # AtomArray: Automatic Differentiation Library
 
 ## Introduction
 
-AtomArray is a foundational automatic differentiation (autograd) library designed to streamline and simplify the intricacies of gradient computations. Born out of a pivot from a neural network endeavor, AtomArray encapsulates the essence of deep learning fundamentals in a "toy" version, while harboring the power and potential to grow into a comprehensive toolset.
+AtomArray is a foundational automatic differentiation (autograd) library designed to streamline and simplify the intricacies of gradient computations. Born out of a pivot from a neural network endeavor, AtomArray encapsulates the essence of deep learning fundamentals, while harboring the power and potential to grow into a comprehensive toolset.
+
 
 ## Features
 
